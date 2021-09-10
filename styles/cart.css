@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+  background: whitesmoke;
+}
+
+
+
+.description{
+  width: 300px;
+  border: 2px solid red;
+}
+
+.image{
+  width: 400px;
+  border: 2px solid red;
+}
+
+.img{
+  width: 20vw;
+}
+
+.main-image{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.content{
+  width: 300px;
+  border: 2px solid red;
+}
+
+.user-cart {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    position: fixed;
+    top: -100%;
+    background-color: #a0522d;
+    transition: all 0.3s linear;
+}
+
+.user-cart.show {
+    top: 0;
+    background-color: #e47900;
+}
+
+.container{
+    display: flex;
+   justify-content: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productName{
+  display: flex;
+  justify-content: center;
+}
+
+.top-container{
+    display: flex;
+    /* background: bisque;  */
+    width: 20%;
+    /* border: 2px solid; */
+    /* height: 20vh; */
+}
+
+.amount{
+    width: 50px;
+border: solid 1px red;
+background: red;
+}
+
+.addItem{
+    padding: 10px;
+    border: 2px solid black;
+    background: red ;
+    color: white;
+    width: 100%;
+margin-top: 10px;
+justify-content: center;
+}
+
+.hd{
+  padding: 20px;
+  margin-top: 5vh;
+}
+
+.cart-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 32vh;
+}
+
+.btn{
+    background: black;
+color: white;
+margin: 10px;
+}
+
+.main-button{
+    text-decoration: none;
+    border: 2px solid black;
+    width: 100px;
+    padding: 15px;
+    color: black;
+
+}
+
+.N-img{
+  display: flex;
+  justify-content: center;
+}
+.H-news{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+
+.pop-button {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #06D85F;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  .pop-button:hover {
+    background: #06D85F;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    background: red;
+color: white;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 30%;
+    /* overflow: auto; */
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
+
+.right-cart{
+    display: flex;
+
+}
+.button{
+    display: flex;
+    /* justify-content: center; */
+}
+
+.cart{
+    display: flex;
+    /* justify-content: center; */
+}
+
+.fa{
+    font-size: 2rem;
+}
+
+.btn{
+ padding: 10px;
+}
+
+.footer{
+  background-color:white;
+  color:black;
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+  margin-top: 5%;
+
+}
+
+.headings{
+  color: red;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.info{
+  padding: 15px;
+list-style: none;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+.fab{
+  font-size: 2rem;
+}
+
+
+.icon{
+display: flex;
+justify-content: space-evenly;
+list-style: none;
+}
+
+.icons{
+  align-items: center;
+}
+
+.line{
+  border-top: 1px solid red;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-footer{
+  background-color:black;
+  color:white;
+  /* border-top: 1px solid #E8E8E8; */
+  display: flex;
+  justify-content: center;
+  height: 37px;
+}

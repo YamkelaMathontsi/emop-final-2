@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/contactform.css" />
+    <script src="https://kit.fontawesome.com/cce18f0ce0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Source+Serif+Pro&display=swap" rel="stylesheet"> 
+    <title>Contact Hitachi</title>
+  </head>
+  <body>
+   <div>
+    <a href="./products.html"><img class="img" src="../product-images/HITACHI_HI-RES_IMAGE-01-removebg-preview.png" alt=""></a>
+   </div>
+    
+  <div class="container">
+<div class="inner-container">
+<div class="image">
+<img class="img" src="../product-images/magazine-1.png" alt="">
+</div>
+
+</div>
+  <!-- <div> -->
+     <form class="form"
+      action="https://formspree.io/f/xpzkwbye"
+      method="POST"
+      id="contact-form"
+    > 
+      <div class="input">
+        <label for="name" class="contact-info"></label>
+        <input
+          type="text"
+          id="name"
+          required
+          name="name"
+          class="contact-input"
+          placeholder="full name"
+        />
+      </div> 
+       <!-- EMAIL  -->
+  
+      <div class="input">
+        <label for="email">Your Email</label>
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="name@domain.com"
+          id="email"
+          class="contact-input"
+        />
+      </div>
+
+      <!-- NUMBER -->
+       <div class="input">
+        <label for="number">phone number</label>
+        <input
+          type="text"
+          name="message"
+          required
+          placeholder="071 123 4567"
+          class="contact-input"
+        />
+      </div>
+
+      <!-- MESSAGE  -->
+       <div class="input">
+        <label for="message">message</label>
+        <input
+          type="text"
+          name="message"
+          placeholder="Type in your message"
+          class="contact-input"
+        />
+      </div>
+      <div class="button-groups">
+        <button class="button">Submit</button>
+      </div>
+    </form>
+
+  
+<!-- </div> -->
+</div>
+
+      <script src="/scripts/mainjava.js"></script>
+  </footer> 
+  </body>
+</html>

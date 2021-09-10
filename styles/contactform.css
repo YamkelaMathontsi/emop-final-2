@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    background-color: #b3c0a4;
+    font-family: "Cinzel", serif;
+  }
+  
+  .main-footer {
+    font-size: 10px;
+    position: absolute;
+    bottom: 1;
+    top: 90vh;
+    letter-spacing: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -250px;
+  }
+  
+  label {
+    display: none;
+  }
+  
+  .button-groups {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button:hover {
+    /* background-color: tan; */
+  }
+  
+  .button {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 5px;
+    width: 250px;
+    text-decoration: none;
+    font-family: "Source Serif Pro", serif;
+    font-size: 20px;
+  }
+  
+  .contact-input {
+    padding: 20px;
+    margin: 10px;
+    width: 600px;
+    font-family: "Source Serif Pro", serif;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+  }
+  
+  /* .contact-i {
+    display: flex;
+  
+    padding-bottom: 3%;
+  } */
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+  }
+  
+  .inner-container {
+    background-color: brown;
+    padding: 25px;
+    margin-bottom: 65px;
+  }
+  
+  .contact-heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fas {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .item {
+    /* margin-top: 90px; */
+  }
+  
+  .item-1 {
+    margin-top: 50px;
+  }
+
+  .img{
+      width: 15vw;
+  }
+  
+  @media (max-width: 300px) {
+    .container {
+      flex-direction: column;
+    }
+    .contact-input {
+      width: 150px;
+    }
+    .card-body {
+      margin: 25px 10px;
+      width: 45%;
+    }
+
+  }
+  @media (max-width: 505px) {
+    .container {
+      flex-direction: column;
+    }
+    .contact-input {
+      width: 250px;
+    }
+    .input {
+      display: flex;
+      justify-content: center;
+    }
+    .card-body {
+      margin: 25px 10px;
+      width: 45%;
+    }
+  }
+  @media (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+    .contact-input {
+      width: 320px;
+    }
+    .input {
+      display: flex;
+      justify-content: center;
+    }
+    .card-body {
+      margin: 25px 10px;
+      width: 45%;
+    }
+  }
+  @media (max-width: 920px) {
+    .container {
+      flex-direction: column;
+    }
+    .contact-input {
+      width: 300px;
+    }
+    .input {
+      display: flex;
+      justify-content: center;
+    }
+    .card-body {
+      margin: 25px 10px;
+      width: 45%;
+    }
+  }
+  
