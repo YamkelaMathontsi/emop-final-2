@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+ background-color: white;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.description{
+    width: 300px;
+    border: 2px solid red;
+}
+
+.image{
+    width: 400px;
+    border: 2px solid red;
+}
+
+.img{
+    width: 20vw;
+}
+
+.main-image{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+
+#filter {
+    border-radius:5px;
+    width:400px;
+    padding:10px;
+    border: 3px solid red;
+  }
+
+  #main {
+    background:whitesmoke;
+    border-radius:5px;
+  /*   border :1px solid grey; */
+    display:flex;
+    justify-content:center;
+  /*   align-items:flex-start; */
+    flex-direction:column;
+    width:50%;
+    height:50%;
+    padding:20px;
+    color: black;
+  }
+  
+  .container-items {
+     display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:20px;
+    background-color: white;
+
+  }
+  .products {
+    text-align:left;
+    color:red;
+  /*   background:#BE6B84; */
+    background: black;
+    margin-bottom:5px;
+    margin-left:40px;
+    width:540px;
+    padding:10px;
+    display:flex;
+    border-radius:5px;
+    align-items:center;
+    /* justify-content:space-between; */
+  }
+
+  .hd{
+      padding: 50px;
+  }
+
+  .fab{
+    font-size: 2rem;
+  }
+  
+
+  .button{
+      width: 100%;
+      padding: 10px;
+  }
+  
+  /* .container{
+    background:#FFCBDD;
+  }  */
+
+  #items{
+    display: flex;
+    justify-content: center;
+  }
+  
+
+.content{
+    width: 300px;
+    border: 2px solid red;
+}
+
+.footer{
+    background-color:white;
+    color:black;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    margin-top: 5%;
+
+}
+
+.headings{
+    color: red;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.info{
+    padding: 15px;
+list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.icon{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.icons{
+    align-items: center;
+}
+
+.line{
+    border-top: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-footer{
+  background-color:black;
+  color:white;
+    /* border-top: 1px solid #E8E8E8; */
+    display: flex;
+    justify-content: center;
+    height: 37px;
+}
+
+
